@@ -51,8 +51,7 @@ header {
 
 .header-right a {
     line-height: 75px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 10px 30px;
     color: white;
     display:block;
 }
