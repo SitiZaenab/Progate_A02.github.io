@@ -182,3 +182,25 @@ header {
   font-weight: normal;
   margin-bottom: 20px;
 }
+
+.footer {
+    background-color: #2b1700;
+    color: cornsilk;
+    height: 120px;
+    padding: 40px;
+}
+
+.footer-logo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 32px;
+    color: orangered;
+}
+
+.footer-list {
+    float: right;
+}
+
+.footer-list li {
+    padding-bottom: 20px;
+    list-style: none;
+}
