@@ -1,0 +1,139 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Comforter Brush', cursive;
+    font-size: 18px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top-wrapper {
+  padding: 200px 0 120px 0;
+  background-image: url(https://images.unsplash.com/photo-1626509653334-fa41af88a1e0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  background-size: cover;
+  color: white;
+  text-align: left;
+}
+
+.container {
+  width: 1500px;
+  margin: 0 auto;
+}
+
+.top-wrapper h1 {
+  opacity: 0.8;
+  font-size: 28px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+.top-wrapper p {
+  margin-left: 30px;
+  font-size: 15px;
+}
+
+.btn-wrapper {
+  margin: 20px 25px;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.start {
+   background-color: orangered;
+}
+
+.btn {
+   padding: 12px 24px;
+   color: black;
+   display: inline-block;
+   opacity: 0.7;
+   border-radius: 4px;
+}
+
+.btn:hover {
+   opacity: 1;
+}
+
+.food-wrapper {
+   height: 500px;
+   padding-bottom: 80px;
+   background-color: #f7f7f7;
+   text-align: center;
+}
+  
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  margin-right: 150px;
+  text-align: center;
+  color: #5f5d60;
+}
+  
+.heading h2 {
+  font-weight: normal;
+}
+  
+.food {
+  float: left;
+  width: 50%;
+}
+  
+.food-icon {
+  position: absolute;
+  margin-left: 150px;
+}
+  
+.food-icon p {
+  position: absolute;
+  top: 230px;
+  width: 100%;
+  color: black;
+}
+  
+.txt-contents {
+   width: 35%;
+   display: inline-block;
+   margin-top: 260px;
+   margin-right: 150px;
+   font-size: 12px;
+   color: #b3aeb5;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 60px;
+  cursor: pointer;
+  background-color: orangered;
+  box-shadow: 0 7px orange;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.heading h3{
+  font-size: 15px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
